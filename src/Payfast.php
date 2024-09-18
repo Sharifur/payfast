@@ -3,7 +3,7 @@
 namespace Billow;
 
 use Billow\Contracts\PaymentProcessor;
-use Billow\Utilities\Money;
+use Billow\Money;
 use Illuminate\Http\Request;
 
 class Payfast implements PaymentProcessor
