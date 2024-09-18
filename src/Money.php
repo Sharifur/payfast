@@ -1,6 +1,6 @@
 <?php
 
-namespace Billow\Utilities;
+namespace Billow;
 
 use Illuminate\Support\Facades\Config;
 use NumberFormatter;
