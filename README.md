@@ -1,14 +1,16 @@
 # Laravel Payfast
->> fork this to make it Laravel 9 and php 8 supported
-
 A dead simple Laravel payment processing class for payments through payfast.co.za. This package only supports ITN transactions. Laravel Payfast is strictly use at own risk.
+
+## important notice
+this is a focked version of ``billowapp/payfast`` package, this package is not update for long with so i have create a fork and give support to laravel 9 and publish it in packagist so that i can use it in my private packages.
+all credit to main author "Warren Hansen".
 
 ## Installation
 
 Add Laravel Payfast to your composer.json
 
 ```bash
-composer require billowapp/payfast
+composer require sharifur/payfast
 ```
 
 ### Config
@@ -17,7 +19,6 @@ publish default configuration file.
     php artisan vendor:publish
 
 IMPORTANT: You will need to edit App\Http\Middleware\VerifyCsrfToken by adding the route, which handles the ITN response to the $excepted array. Validation is done via the ITN response.
-
 
 
 ```php
